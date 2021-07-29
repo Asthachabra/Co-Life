@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome"
+    android:background="@drawable/pic_1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="275dp"
+        android:layout_height="274dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/resources"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        app:srcCompat="@drawable/co_life_logo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="409dp"
+        android:layout_height="20dp"
+        app:cardBackgroundColor="#8EB8B2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/donor"
+        android:layout_width="274dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="312dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="BE A DONOR"
+        android:textSize="24sp"
+        app:backgroundTint="#8EB8B2"
+        app:layout_constraintBottom_toTopOf="@+id/resources"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/resources"
+        android:layout_width="274dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="396dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="RESOURCES"
+        android:textSize="24sp"
+        app:backgroundTint="#8EB8B2"
+        app:layout_constraintBottom_toTopOf="@+id/updates"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <Button
+        android:id="@+id/updates"
+        android:layout_width="274dp"
+        android:layout_height="61dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="UPDATES"
+        android:textSize="24sp"
+        app:backgroundTint="#8EB8B2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+</androidx.constraintlayout.widget.ConstraintLayout>

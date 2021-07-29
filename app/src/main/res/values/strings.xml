@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My appfinal</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="new_to_co_life">New to Co-Life?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_username">Create username</string>
+    <string name="contact_number">Contact number</string>
+    <string name="create_password">Create password</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="enter_name">Enter name</string>
+    <string name="plasma">PLASMA</string>
+    <string name="oxygen">OXYGEN</string>
+    <string name="blood">BLOOD</string>
+    <string name="food">FOOD</string>
+    <string name="logo">logo</string>
+    <string name="select_city">SELECT CITY</string>
+    <string name="select_state">SELECT STATE</string>
+    <string name="proceed">PROCEED</string>
+    <string name="select_blood_group">SELECT BLOOD GROUP</string>
+    <string name="thankyou_donor">ThankYou Donor!</string>
+    <string name="a_heartfilled_thanks_for_contributing_towards_a_better_society_and_helping_those_in_need_just_know_that_this_step_of_yours_can_save_a_life">A heartfilled thanks for contributing towards a better society and helping those in need. just know that this step of yours can save a life!</string>
+    <string name="what_would_you_like_to_donate">What would you like to donate?</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="state">STATE</string>
+    <string name="city">CITY</string>
+    <string name="oxygen_cylinder">Oxygen Cylinder</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="donor_verification">Donor Verification!</string>
+    <string name="proceed">PROCEED</string>
+    <string name="agree">AGREE</string>
+    <string name="overall_health_the_donor_must_be_fit_and_healthy_and_should_not_be_suffering_from_transmittable_diseases_age_and_weight_the_donor_must_be_18_65_years_old_and_should_weigh_a_minimum_of_50_kg_pule_rate_between_50_and_100_without_irregularities_hemoglobin_level_a_minimum_of_12_5_g_dl_blood_pressure_diastolic_50_100mm_hg_systolic_100_180_mm_hg_body_temperature_should_be_normal_with_an_oral_temperature_not_exceeding_37_5_degree_celcius_overall_health_the_donor_must_be_fit_and_healthy_and_should_not_be_suffering_from_transmittable_diseases">Overall health-The donor must be fit and healthy and should not be suffering from transmittable diseases.Age and weight-The donor must be 18-65 years old and should weigh a minimum of 50 kg.Pule Rate-Between 50 and 100 without irregularities.Hemoglobin Level-A minimum of 12.5 g/dL.Blood Pressure-Diastolic:50-100mm Hg, Systolic:100-180 mm Hg. Body Temperature should be normal, with an oral temperature not exceeding 37.5 degree celcius. Overall health-The donor must be fit and healthy and should not be suffering from transmittable diseases.</string>
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+</resources>
